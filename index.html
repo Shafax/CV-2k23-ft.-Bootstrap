@@ -34,12 +34,9 @@
     <link href="style.css" rel="stylesheet" />
 
     <!-- GoogleFonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Playfair+Display&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Barra de navegacion -->
@@ -59,7 +56,8 @@
         <div class="collapse navbar-collapse" id="navbar-toggler">
           <a class="navbar-brand" href="#">
             <img
-              src="Imagenes/icono.svg"
+              class="rounded-circle"
+              src="Imagenes/Iconos/icono.svg"
               width="50"
               alt="Logo de la página web"
             />
@@ -68,18 +66,18 @@
             class="navbar-nav d-flex justify-content-center align-items-center"
           >
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#sobre-mi"
+              <a class="nav-link texto active" aria-current="page" href="#sobre-mi"
                 >Sobre mí</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#proyectos">Proyectos</a>
+              <a class="nav-link texto" href="#proyectos">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonios">Testimonios</a>
+              <a class="nav-link texto" href="#testimonios">Testimonios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contacto">Contacto</a>
+              <a class="nav-link texto" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -97,34 +95,25 @@
           alt="Foto de Daniel Peláez"
         />
         <h1>Hola, Soy Daniel Peláez</h1>
-        <h2>Desarrollo sitios web</h2>
-      </div>
-      <div class="hero-inferior">
-        <img
-          class="hero-inferior-imagen img-fluid"
-          src="Imagenes/hero-inferior.svg"
-          alt="Monitor, laptop y logos de HTML, CSS, JS y REACT"
-        />
-      </div>
+        <h2 class="texto"}">Desarrollo sitios web, diseñador gráfico y fotógrafo</h2>
+
     </section>
 
     <!-- Sobre mi -->
     <section id="sobre-mi" class="sobre-mi seccion-oscura">
       <div class="contenedor">
-        <h2 class="seccion-titulo">Conoce a Daniel Peláez</h2>
+        <h2 class="seccion-titulo">Conóceme</h2>
         <p class="seccion-texto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec
-          quam leo. Vivamus vel nisl at ex vehicula vehicula at at nisi.
-          Praesent interdum vestibulum justo in posuere. Vivamus vel massa in
-          diam imperdiet dapibus ac in mauris. Donec arcu felis, blandit nec
-          nunc ut, pharetra pellentesque quam. Suspendisse ut turpis et magna
-          maximus tempus ac eget elit. Praesent cursus id justo vel mattis.
-          Donec vitae finibus magna, vel auctor enim. Aenean nulla ligula,
-          viverra in odio convallis, lacinia tristique quam. Nulla orci erat,
-          molestie et sagittis eu, tempus nec sapien. Cras tristique dolor a
-          turpis tristique, in dignissim dolor pulvinar. Curabitur nunc velit,
-          commodo sed nibh a, tristique maximus erat. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit.
+          Bienvenido a mi web. <br>
+          Aquí podras concocerme y ver mis trabajos profesionales.<br>
+          Lo primero de todo, me presento, como ya habrás podido observar, me llamo <strong>Daniel Peláez</strong>, aunque a partir de ahora puedes llamarme solo Dani.<br>
+          Desde pequeño me he sentido atrañido por todo lo visual de este mundo, fue por ello por lo que estudié un <strong>Grado Superior de Imágen</strong>.<br>
+          A medida que iba creciendo iba queriendo más y más y comencé en el mundo del <strong>Diseño Gráfico</strong> donde he estado trabajando muchos años. Hasta que, recientemente, me pregunté: ¿Quieres quedarte ahí?<br>
+          Así que comencé un <strong>Grado Superior DAW</strong> con el objetivo de trasladar todos mis conocimientos visuales aprendidos para poder crear los mejores proyectos.
+          Y heme aquí, contandote mi vida sin que nadie me haya preguntado.<br>
+          Te dejo en paz para que puedas ver todo lo que necesites, y si quieres preguntarme algo, no dudes en ponerte en contacto conmigo.
+          Graciaaas!
+
         </p>
       </div>
     </section>
@@ -137,9 +126,8 @@
           <div class="columna col-12 col-md-4">
             <i class="bi bi-laptop"></i>
             <p class="experiencia-titulo">Desarrollo Web</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              nec quam leo.
+            <p class="texto">
+              Mi principal objetivo ahora mismo, quiero crear páginas webs, aplicaciones webs y todo lo que tenga que ver con el desarrollo Web en general.
             </p>
             <div class="badges-contenedor">
               <span class="badge text-bg-primary">HTML</span>
@@ -149,33 +137,31 @@
             </div>
           </div>
 
-          <!-- Articulos -->
+          <!-- Diseño Gráfico -->
           <div class="columna col-12 col-md-4">
-            <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Articulos</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              nec quam leo.
+            <i class="bi bi-eyedropper"></i>
+            <p class="experiencia-titulo">Diseño Gráfico</p>
+            <p class="texto">
+              Desde 2015 hasta el 2022 he trabajado en empresas del sector, adquiriendo conocimientos y desarrollandome como profesional.
             </p>
             <div class="badges-contenedor">
-              <span class="badge text-bg-primary">Escribir</span>
-              <span class="badge text-bg-primary">Editar</span>
-              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">Branding</span>
+              <span class="badge text-bg-primary">Tipografías</span>
+              <span class="badge text-bg-primary">Logotipos</span>
             </div>
           </div>
 
-          <!-- Estudiante -->
+          <!-- Fotográfo -->
           <div class="columna col-12 col-md-4">
-            <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Estudios</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              nec quam leo.
+            <i class="bi bi-camera2"></i>
+            <p class="experiencia-titulo">Fotografía</p>
+            <p class="texto">
+              Desde 2012 llevo haciendo fotos, tanto profesional como personalmente. Es un mundo que me encanta y que nunca me va a abandonar.
             </p>
             <div class="badges-contenedor">
-              <span class="badge text-bg-primary">FreecodeCamp</span>
-              <span class="badge text-bg-primary">Desarrollo Web</span>
-              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">Moda</span>
+              <span class="badge text-bg-primary">Productos</span>
+              <span class="badge text-bg-primary">Paisajes</span>
             </div>
           </div>
         </div>
@@ -194,15 +180,15 @@
       <!-- Galeria de proyectos -->
       <div class="container text-center proyectos-contenedor">
         <div class="row">
-          <!-- Proyecto 1 -->
+          <!-- Bootstrap  -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="Imagenes/proyecto1.jpg" alt="Proyecto 1" />
+              <img src="Imagenes/proyecto1.jpg" alt="Proyecto con Bootstrap" />
               <div class="overlay">
-                <p>Proyecto 1</p>
+                <p style="font-family: Girassol, cursive;font-size: 2rem;">Bootstrap</p>
                 <div class="iconos-contenedor">
                   <a
-                    href="https://github.com/Shafax"
+                    href="https://github.com/Shafax/cv2k23Ft.Bootstrap"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -219,15 +205,15 @@
               </div>
             </div>
           </div>
-          <!-- Proyecto 2  -->
+          <!-- QuienPaceQuien  -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="Imagenes/proyecto2.jpg" alt="Proyecto 2" />
+              <img src="Imagenes/proyecto2.jpg" alt="Proyecto con Java" />
               <div class="overlay">
-                <p>Proyecto 2</p>
+                <p style="font-family: Girassol, cursive;font-size: 2rem;">Quien Parece Quien</p>
                 <div class="iconos-contenedor">
                   <a
-                    href="https://github.com/Shafax"
+                    href="https://github.com/Shafax/quienPareceQuien"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -244,12 +230,12 @@
               </div>
             </div>
           </div>
-          <!-- Proyecto 3 -->
+          <!-- Calculadora -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
               <img src="Imagenes/proyecto3.jpg" alt="Proyecto 3" />
               <div class="overlay">
-                <p>Proyecto 3</p>
+                <p style="font-family: Girassol, cursive;font-size: 2rem;">Calculadora</p>
                 <div class="iconos-contenedor">
                   <a
                     href="https://github.com/Shafax"
@@ -269,19 +255,19 @@
               </div>
             </div>
           </div>
-          <!-- Proyecto 4 -->
+          <!-- The Reelx Photo -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="Imagenes/proyecto4.jpg" alt="Proyecto 4" />
+              <img src="Imagenes/proyecto4-01.jpg" alt="Proyecto 4" />
               <div class="overlay">
-                <p>Proyecto 4</p>
+                <p style="font-family: Girassol, cursive;font-size: 2rem;">The Reelx Photo</p>
                 <div class="iconos-contenedor">
                   <a
-                    href="https://github.com/Shafax"
+                    href="https://www.facebook.com/reelxphoto/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i class="bi bi-github"></i>
+                  <i class="bi bi-facebook"></i>
                   </a>
                   <a
                     href="https://www.freecodecamp.org/espanol/daniPelaez"
@@ -294,12 +280,12 @@
               </div>
             </div>
           </div>
-          <!-- Proyecto 5 -->
+          <!-- Branding -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
               <img src="Imagenes/proyecto5.jpg" alt="Proyecto 5" />
               <div class="overlay">
-                <p>Proyecto 5</p>
+                <p style="font-family: Girassol, cursive;font-size: 2rem;">Proyecto 5</p>
                 <div class="iconos-contenedor">
                   <a
                     href="https://github.com/Shafax"
@@ -319,12 +305,12 @@
               </div>
             </div>
           </div>
-          <!-- Proyecto 6 -->
+          <!-- Logos -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
               <img src="Imagenes/proyecto6.jpg" alt="Proyecto 6" />
               <div class="overlay">
-                <p>Proyecto 6</p>
+                <p style="font-family: Girassol, cursive; font-size: 2rem;">Proyecto 6</p>
                 <div class="iconos-contenedor">
                   <a
                     href="https://github.com/Shafax"
@@ -351,73 +337,42 @@
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button type="button" class="btn btn-info">
+        <button type="button" class="btn btn-info texto">
           Ver más proyectos
           <i class="bi bi-arrow-right-circle-fill"></i>
         </button>
       </a>
     </section>
 
-    <!-- Articulos -->
+    <!-- Últimos Trabajos -->
     <section id="articulos" class="articulos justify-content-start">
-      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <h2 class="seccion-titulo texto-negro">Últimos Empleos</h2>
       <div class="card text-center">
-        <div class="card-header">Más recientes</div>
+        <div class="card-header texto">Más recientes</div>
         <ul class="list-group list-group-flush">
-          <a
-            href="https://www.freecodecamp.org/daniPelaez"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <li class="list-group-item">Articulo 1</li>
-          </a>
-          <a
-            href="https://www.freecodecamp.org/daniPelaez"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <li class="list-group-item">Articulo 2</li>
-          </a>
-          <a
-            href="https://www.freecodecamp.org/daniPelaez"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <li class="list-group-item">Articulo 3</li>
-          </a>
-          <a
-            href="https://www.freecodecamp.org/daniPelaez"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <li class="list-group-item">Articulo 4</li>
-          </a>
-          <a
-            href="https://www.freecodecamp.org/daniPelaez"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <li class="list-group-item">Articulo 5</li>
-          </a>
-        </ul>
+            <li class="list-group-item texto">Diseñador Gráfico / Técnico Operario Plotters- Oclock Solutions</li>
+            <li class="list-group-item texto">Diseñador Gráfico / Atención al público - Copicentro</li>
+            <li class="list-group-item texto">Diseñador Gráfico / Técnico operario Láser - Gofer Souvenirs</li>
+            <li class="list-group-item texto">Técnico de Laboratorio de Imagen - Dyna Digital</li>
+          </ul>
       </div>
       <a
-        href="https://www.freecodecamp.org/daniPelaez"
+        href="https://www.linkedin.com/in/daniel-pel%C3%A1ez-pino-658049b3/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button type="button" class="btn btn-info">
-          Ver más artículos
+        <button type="button" class="btn btn-info texto">
+          Ver toda la experiencia laboral
           <i class="bi bi-arrow-right-circle-fill"></i>
         </button>
       </a>
     </section>
 
-    <!-- Testimonios -->
+    <!-- Declaraciones -->
     <section id="testimonios" class="testimonios seccion-clara">
-      <h2 class="seccion-titulo">Testimonios</h2>
+      <h2 class="seccion-titulo">Declaraciones</h2>
       <h3 class="seccion-descripcion">
-        Estos son algunos de mis testimonios...
+        Estos son algunas de las cosas que he aprendido de mis ultimos trabajos
       </h3>
 
       <!-- Carrousel -->
@@ -449,17 +404,16 @@
             <div class="container">
               <img
                 class="testimonio-imagen rounded-circle"
-                src="Imagenes/icono.svg"
+                src="Imagenes/Iconos/iconoOClock-01.jpg"
                 alt="foto del cliente numero 1"
               />
               <p class="testimonio-texto">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                nec quam leo. Vivamus vel nisl at ex vehicula vehicula at at
-                nisi. Praesent interdum vestibulum justo in posuere.
+               Aquí me especialicé en el proceso de producción de las artes finales.
+                Prestando especial atención a la composición visual, colores, acabados y el gusto por hacer un buen trabajo.
               </p>
               <div class="testimonio-info">
-                <p class="cliente">Dani</p>
-                <p class="cargo">Gerente de proyectos</p>
+                <p class="cliente">Cargo</p>
+                <p class="cargo">Diseñador Gráfico / Técnico Operario Plotters</p>
               </div>
             </div>
           </div>
@@ -467,17 +421,15 @@
             <div class="container">
               <img
                 class="testimonio-imagen rounded-circle"
-                src="Imagenes/icono.svg"
+                src="Imagenes/Iconos/iconoCopicentro-01.jpg"
                 alt="foto del cliente numero 2"
               />
               <p class="testimonio-texto">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                nec quam leo. Vivamus vel nisl at ex vehicula vehicula at at
-                nisi. Praesent interdum vestibulum justo in posuere.
+                Aquí aprendí a desarrollar proyectos de logos, branding, imagén corporativa, etc. Siempre con las mejores de las formas y un buen trato al cliente.
               </p>
               <div class="testimonio-info">
-                <p class="cliente">Juan</p>
-                <p class="cargo">Gerente de Diseño Web</p>
+                <p class="cliente">Cargo</p>
+                <p class="cargo">Diseñador Gráfico / Atención al público - Copicentro</p>
               </div>
             </div>
           </div>
@@ -485,17 +437,15 @@
             <div class="container">
               <img
                 class="testimonio-imagen rounded-circle"
-                src="Imagenes/icono.svg"
+                src="Imagenes/Iconos/iconoGofer-01.jpg"
                 alt="foto del cliente numero 3"
               />
               <p class="testimonio-texto">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                nec quam leo. Vivamus vel nisl at ex vehicula vehicula at at
-                nisi. Praesent interdum vestibulum justo in posuere.
+                En este trabajo aprendí lo delicado que es el láser y lo reconfortante que es hacer un buen trabajo y que se valore como tal.
               </p>
               <div class="testimonio-info">
-                <p class="cliente">Vicky</p>
-                <p class="cargo">Gerente de Neither White Neither Black</p>
+                <p class="cliente">Cargo</p>
+                <p class="cargo">Diseñador Gráfico / Técnico operario Láser - Gofer Souvenirs</p>
               </div>
             </div>
           </div>
@@ -551,7 +501,7 @@
     >
       <img
         class="footer-logo"
-        src="Imagenes/logoPng.png"
+        src="Imagenes/Iconos/icono.svg"
         alt="Logo de Portfolio"
       />
       <p class="footer-texto text-center">
