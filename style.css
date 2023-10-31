@@ -96,12 +96,11 @@ h1 {
 /* Sobre Mi */
 
 .sobre-mi {
-  padding: 1rem;
   padding: 10px;
 }
 .contenedor {
   padding: 4rem;
-  width: 70%;
+  width: 80%;
   text-align: center;
 }
 
@@ -414,6 +413,11 @@ h1 {
   .overlay i {
     font-size: 40px;
   }
+
+  .contenedor {
+    padding: 0px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -424,5 +428,9 @@ h1 {
 
   .testimonio-texto {
     font-size: 18px;
+  }
+
+  .contenedor {
+    padding: 2rem;
   }
 }
