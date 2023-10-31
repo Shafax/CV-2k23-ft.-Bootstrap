@@ -78,7 +78,7 @@ h1 {
   padding: 3rem;
 }
 
-.hero-imagen {hero
+.hero-imagen {
   width: 200px;
   height: 200px;
   margin: 20px;
@@ -103,7 +103,6 @@ h1 {
   padding: 4rem;
   width: 70%;
   text-align: center;
-
 }
 
 /* Experiencia */
@@ -427,5 +426,3 @@ h1 {
     font-size: 18px;
   }
 }
-
-
